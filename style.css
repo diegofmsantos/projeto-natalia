@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0a3e7c;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background-color: #062642;
+}
+
+
+main {
+    background-color: #062642;
+    max-width: 1000px;
+    min-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+aside > h1 {
+    color:#0a3e7c
+}
+
+
+.paragrafo {
+    font-size: 18px;
+    text-indent: 30px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+.paragrafo-secundario {
+    font-size: 18px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+
+.amarelo {
+    font-size: 18px;
+    text-indent: 30px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+    color: yellow;
+}
+
+
+.amarelo-secundario {
+    font-size: 18px;
+    text-indent: 30px;
+    line-height: 1.7em;
+    color: yellow;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+
+.video > a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.video > a:hover {
+    font-weight: bold;
+    padding: 5px;
+    background-color: red;
+}
+
+aside {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 350px;
+    color: black;
+    padding: 20px;
+}
+
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.comentarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.comentarios img {
+    width: 40%;
+    margin: auto;
+}
+
+
+.comentarios-diego {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+    width: 250px;
+}
+
+.comentarios-ericka {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+    width: 250px;
+}
+
+.comentarios-valdenio {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+    width: 250px;
+}
+
+.conteudo {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+.ebook {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-ebook {
+    color: #0a3e7c;
+}
+
+.ebook img {
+    width: 30%;
+    margin: auto;
+}
+
+.perguntas {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7em;
+}
+
+.final {
+    background-color: #0a3e7c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.final > a {
+    color: white;
+    background-color: orangered;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+div.final > a:hover {
+    color: red;
+}
+
+footer {
+    font-family: 'Questrial', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+footer > p {
+    color: #0a3e7c;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+footer > p > a {
+    color: #0a3e7c;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
