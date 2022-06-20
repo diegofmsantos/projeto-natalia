@@ -146,7 +146,7 @@ aside {
     flex-direction: column;
     text-align: justify;
     gap: 10px;
-    width: 250px;
+    width: 300px;
 }
 
 .comentarios-ericka {
@@ -154,7 +154,7 @@ aside {
     flex-direction: column;
     text-align: justify;
     gap: 10px;
-    width: 250px;
+    width: 300px;
 }
 
 .comentarios-valdenio {
@@ -162,7 +162,7 @@ aside {
     flex-direction: column;
     text-align: justify;
     gap: 10px;
-    width: 250px;
+    width: 300px;
 }
 
 .conteudo {
